@@ -1,0 +1,66 @@
+@media (min-width: 992px) {
+  header {
+    padding: 45px 0 45px;
+  }
+}
+
+body {
+  margin-bottom: 15%;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+p {
+  color: #838287;
+  font-family: 'Open Sans', sans-serif;  
+  font-size: 1em;
+}
+
+h1 {
+  color: #838287;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 4em;
+}
+
+h2 {
+  color: #545356;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+  color: #7d7aa0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #545356;
+  text-decoration: none;
+}
+
+.form-group {
+  color: #545356;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.btn {
+  color: #838287;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Gallery */
+
+.gallery {
+  margin: 2px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 5px;
+  width: 200%;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
