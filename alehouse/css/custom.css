@@ -1,0 +1,189 @@
+header {
+  padding: 134px 5px 50px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 130px 0;
+}
+
+.jumbotron {
+	background-size: cover;
+	background: no-repeat;
+	height: 600px;
+	margin-top: 150px;
+}
+
+.btn:hover{
+	color: #c28221;
+}
+
+.grey-bg {
+    background-color: #1b0400;
+}
+
+body {
+  height: 100%;
+  background-size: 1650px 970px;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+h1 {
+    font-family: 'Girassol', cursive; color: #b8860b;
+    font-size: 5em;
+    color: #b8860b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  color: white;
+  opacity: .8;
+}
+
+h3 {
+	text-align: center;
+	margin: 15px;
+	padding: 30px;
+	font-family: 'Abel', sans-serif;
+	font-size: 2em;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.4em;
+    color: #b8860b;
+    text-align: center;
+}
+
+h5 {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	opacity: .5;
+	text-align: right;
+}
+
+h6 {
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	color: white;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+p {
+	margin: 30px;
+  margin: 20px;
+	font-family: 'Abel', sans-serif;
+	font-size: 1.7em;
+	color: white;
+	opacity: .7;
+}
+
+ul {
+	margin: 30px;
+  	margin: 20px;
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+	color: white;
+	opacity: .7;
+	list-style-type: none;
+}
+
+li {
+  font-size: 1em;
+  text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 85%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 15vh;
+}
+
+img.icon{
+	width:75%; 
+	height:325px;
+	max-height: 200px;
+	align-items: center;
+}
+
+/* navigation and links */
+
+.navbar {
+	height: 120px;
+	background: #1b0400;
+	font-size: 1.3em;
+	opacity: .65;
+}
+
+a {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.3em;
+	color: #DAA520;
+}
+
+a:hover{
+	color: #44391a;	
+	text-decoration: none;
+}
+
+/* contact */
+
+form {
+  margin-top: 250px;
+}
+
+.form-group{
+ text-align: right;
+ margin: 20px;
+ margin: 10px;
+ margin-left: 50px;
+ margin-right: 50px;
+ font-family: 'Abel', sans-serif;
+ font-size: 1.5em;
+ color: #b8860b;
+ opacity: .8;
+}
+
+.btn {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.2em;
+  color: #b8860b;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  opacity: .5;
+  font-family: 'EB Garamond', serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
